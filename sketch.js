@@ -6,7 +6,7 @@ const Constraint = Matter.Constraint;
 var engine, world;
 var box1, pig1;
 var backgroundImg,platform;
-var bird, slingShot;
+var bird, slingShot,chain;
 
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
